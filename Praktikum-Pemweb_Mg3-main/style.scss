@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #D8D9CF;
+}
+
+.elsa {
+    background-color: #D8D9CF;
+    padding: 40px 0 0 20px;
+    margin: auto;
+    display: flex;
+    color: #FF8787;
+}
+
+.elsa > img {
+    width: 190px;
+    margin-right: 20px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: #EDEDED;
+    text-align: right;
+    position: sticky;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #E26868;
+    padding: 5px;
+    font-size: small;
+    font-family: Arial;
+}
+
+span{
+    color: #E26868;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+header p{
+    font-size: 2rem;
+}
+
+h3 {
+    color: #fff;
+    background-color: #E26868;
+    margin: 15px 0 15px 10px;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 30px;
+}
+
+.container{
+    display: flex;
+}
+
+.container > .kiri{
+    flex: 1;
+    display: block;
+    border-radius: 20px;    
+    margin: 5px 10px 10px 10px;
+    background-color: #FF8787;
+    padding: 15px 15px 15px 15px;
+    height: fit-content;
+    text-align: justify;
+    text-align: center;
+    color: #fff;
+}
+
+#pengalaman_kerja table{
+    background-color: #fff;
+    margin: auto;
+    width: 800px;
+    border-collapse: collapse;
+
+}
+
+thead{
+    background-color: #FF8787;
+    color: #f6f6f6;
+}
+
+tbody{
+    background-color: #E26868;
+    color: #f6f6f6;
+}
+
+td, th {
+    border: 1px solid  #aee2ed;
+    padding: 0.2rem 1rem;
+}
+
+td:nth-child(3), td:nth-child(4) {
+    text-align: center;
+}
+
+#hubungi_saya{
+    background-color: #FF8787;
+    margin: auto;
+    width: 200px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+#hubungi_saya .sosmed{
+    text-align: center;
+}
+
+#hubungi_saya .sosmed img{
+    width: 50px;
+}
+
+footer{
+    background-color: #FF8787;
+    color: #E26868;
+    text-align: center;
+    margin-top: 25px;
+    padding: 10px 0;
+}
+
+@media screen and (max-width: 500px) {
+    span{
+        font-size: 2rem;
+    }
+
+    header p{
+        font-size: 1rem;
+    }
+
+    #pengalaman_kerja table{
+        width: 500px;
+    }
+}
